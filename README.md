@@ -34,7 +34,10 @@ and this will be returned as
 ``` 
 
 # Installation
-Before starting of this service, prepare the environment and install Docker (https://docs.docker.com/engine/install/) and Python3 (https://www.python.org/downloads/) to test the service.
+Before starting of this service, prepare the environment and install *Docker* (https://docs.docker.com/engine/install/) and *Python3* (https://www.python.org/downloads/) to test the service. Also you might need to install *urllib3* python library:
+```sh
+$ pip3 install urllib3
+```
 
 ## Build Docker Image
 ```sh
