@@ -23,7 +23,8 @@ as
 {"foo":"bar"}
 ```
 
-Parameters with the same name but different values are not supported by the design of this service. Handling of such parameters will result in JSON data with duplicated keys and invalid values. _So, make sure that that your url do not have duplicated parameters._
+Parameters with the same name but different values are not supported by the design of this service. Handling of such parameters will result in JSON data with duplicated keys and invalid values. 
+_So, make sure that your url do not have duplicated parameters._
 ```sh
 http://localhost:8080/?foo=bar&foo=quux%21
 ```
